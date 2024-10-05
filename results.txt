@@ -1,0 +1,136 @@
+nathan@Nathan:~/projects/CPSC_351/forky-thready-Nathan2113$ ./forkythready 19 1
+Process 0 (145152) creating Process 1 (145153)
+Process 1 beginning
+
+Process 0 (145152) creating Process 2 (145154)
+Process 2 beginning
+
+Process 0 (145152) creating Process 3 (145155)
+Process 3 beginning
+
+Process 0 (145152) creating Process 4 (145156)
+Process 4 beginning
+
+Process 0 (145152) creating Process 5 (145157)
+Process 5 beginning
+
+Process 0 (145152) creating Process 6 (145158)
+Process 6 beginning
+
+Process 0 (145152) creating Process 7 (145159)
+Process 7 beginning
+
+Process 0 (145152) creating Process 8 (145160)
+Process 8 beginning
+
+Process 0 (145152) creating Process 9 (145161)
+Process 9 beginning
+
+Process 0 (145152) creating Process 10 (145162)
+Process 10 beginning
+
+Process 0 (145152) creating Process 11 (145163)
+Process 11 beginning
+
+Process 0 (145152) creating Process 12 (145164)
+Process 12 beginning
+
+Process 0 (145152) creating Process 13 (145165)
+Process 13 beginning
+
+Process 0 (145152) creating Process 14 (145166)
+Process 14 beginning
+
+Process 0 (145152) creating Process 15 (145167)
+Process 15 beginning
+
+Process 0 (145152) creating Process 16 (145168)
+Process 16 beginning
+
+Process 0 (145152) creating Process 17 (145169)
+Process 17 beginning
+
+Process 0 (145152) creating Process 18 (145170)
+Process 18 beginning
+
+Process 0 (145152) creating Process 19 (145171)
+Process 19 beginning
+
+Process 1 (145153) exiting...
+Process 2 (145154) exiting...
+Process 3 (145155) exiting...
+Process 4 (145156) exiting...
+Process 5 (145157) exiting...
+Process 6 (145158) exiting...
+Process 7 (145159) exiting...
+Process 8 (145160) exiting...
+Process 9 (145161) exiting...
+Process 10 (145162) exiting...
+Process 11 (145163) exiting...
+Process 12 (145164) exiting...
+Process 13 (145165) exiting...
+Process 14 (145166) exiting...
+Process 15 (145167) exiting...
+Process 16 (145168) exiting...
+Process 17 (145169) exiting...
+Process 18 (145170) exiting...
+Process 19 (145171) exiting...
+Process 0 (145152) exiting...
+
+
+
+
+nathan@Nathan:~/projects/CPSC_351/forky-thready-Nathan2113$ ./forkythready 13 2
+Process 0 beginning
+Process 0 (146967) creating Process 1 (146968)
+
+Process 1 beginning
+Process 1 (146968) creating Process 2 (147031)
+
+Process 2 beginning
+Process 2 (147031) creating Process 3 (147101)
+
+Process 3 beginning
+Process 3 (147101) creating Process 4 (147129)
+
+Process 4 beginning
+Process 4 (147129) creating Process 5 (147220)
+
+Process 5 beginning
+Process 5 (147220) creating Process 6 (147254)
+
+Process 6 beginning
+Process 6 (147254) creating Process 7 (147294)
+
+Process 7 beginning
+Process 7 (147294) creating Process 8 (147422)
+
+Process 8 beginning
+Process 8 (147422) creating Process 9 (147512)
+
+Process 9 beginning
+Process 9 (147512) creating Process 10 (147583)
+
+Process 10 beginning
+Process 10 (147583) creating Process 11 (147685)
+
+Process 11 beginning
+Process 11 (147685) creating Process 12 (147721)
+
+Process 12 beginning
+Process 12 (147721) creating Process 13 (147851)
+
+Process 13 (147851) exiting...
+Process 12 (147721) exiting...
+Process 11 (147685) exiting...
+Process 10 (147583) exiting...
+Process 9 (147512) exiting...
+Process 8 (147422) exiting...
+Process 7 (147294) exiting...
+Process 6 (147254) exiting...
+Process 5 (147220) exiting...
+Process 4 (147129) exiting...
+Process 3 (147101) exiting...
+Process 2 (147031) exiting...
+Process 1 (146968) exiting...
+Process 0 (146967) exiting...

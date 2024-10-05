@@ -31,7 +31,7 @@ void pattern_1(int process_count) {
         waitpid(pids[i], NULL, 0); // Waits for each child to finish
         printf("Process %u (%d) exiting...\n", i + 1, pids[i]);
 
-        sleep((rand() % 3) + 1); // Sleep for a random number of seconds (from 1 - 3)
+        sleep((rand() % 8) + 1); // Sleep for a random number of seconds (from 1 - 8)
     } // END - for(int i = 0; i < process_count; i++)
 }
 
@@ -44,7 +44,7 @@ void pattern_2(int current_process, int process_count) {
 
         pid_t pid = fork();
 
-        sleep((rand() % 3) + 1); // Sleep for a random number of seconds (from 1 - 3)
+        sleep((rand() % 8) + 1); // Sleep for a random number of seconds (from 1 - 8)
 
         if(pid < 0) { // pid will be < 0 if the fork failed
             printf("Fork failed");
@@ -56,7 +56,7 @@ void pattern_2(int current_process, int process_count) {
 
             pattern_2(current_process + 1, process_count);
 
-            printf("Process %u (%d) exiting...\n\n", current_process + 1, getpid());
+            printf("Process %u (%d) exiting...\n", current_process + 1, getpid());
 
             exit(0); // Exit processes once recursion returns
         } // END - else if(pid == 0)
