@@ -35,4 +35,10 @@ int main(int argc, char* argv[]) {
 
         printf("Process 0 (%d) exiting...\n", getpid());
     } // END - else if(atoi(argv[2]) == 2)
+
+    else if(atoi(argv[2]) == 3) {
+        pattern_3(0, process_count);
+
+        printf("Process 0 (%d) exiting...\n", getpid());
+    }
 }
